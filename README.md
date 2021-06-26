@@ -39,6 +39,7 @@ Sample .yaml files which can be run on IKS(IBM Kubernetes Services) as free tier
 
 - couchbase_deployment_nodeport.yaml : [**CoubhBase**](https://hub.docker.com/_/couchbase)
 - couchdb_deployment_nodeport.yaml : [**CouchDB**](https://hub.docker.com/_/couchdb)
+- elasticsearch_deployment_nodeport.yaml : [**ElasticSearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html)
 - mongodb_deployment_nodeport.yaml : [**MongDB**](https://hub.docker.com/_/mongo)
 - mysql_deployment_nodeport.yaml : [**MySQL**](https://hub.docker.com/_/mysql)
 - pgadmin4_deployment_nodeport.yaml : [**Pgadmin4**,](https://hub.docker.com/r/dpage/pgadmin4) Web client for PostgreSQL
