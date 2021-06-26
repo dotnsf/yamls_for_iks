@@ -31,7 +31,7 @@ spec:
         image: wordpress
         env:
         - name: WORDPRESS_DB_HOST
-          value: "169.51.204.190:30306"
+          value: "xxx.xxx.xxx.xxx:30306"
         - name: WORDPRESS_DB_USER
           value: "user1"
         - name: WORDPRESS_DB_PASSWORD
