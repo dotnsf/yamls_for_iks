@@ -49,6 +49,7 @@ Sample .yaml files which can be run on IKS(IBM Kubernetes Services) as free tier
 - phpmydmin_deployment_nodeport.yaml : [**phpMyAdmin**,](https://hub.docker.com/_/phpmyadmin) Web client for MySQL
 - postgresql_deployment_nodeport.yaml : [**PostgreSQL**](https://hub.docker.com/_/postgres)
 - redis_deployment_nodeport.yaml : [**Redis**](https://hub.docker.com/_/redis)
+- scratch3_deployment_nodeport.yaml : [**MIT Scratch3**](https://hub.docker.com/r/kadok0520/mit-scratch3)
 - wordpress_deployment_nodeport.yaml : [**WordPress**](https://hub.docker.com/_/wordpress)
 
 
