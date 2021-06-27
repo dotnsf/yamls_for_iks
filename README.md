@@ -41,6 +41,7 @@ Sample .yaml files which can be run on IKS(IBM Kubernetes Services) as free tier
 - couchdb_deployment_nodeport.yaml : [**CouchDB**](https://hub.docker.com/_/couchdb)
 - drupal_deployment_nodeport.yaml : [**Drupal**](https://hub.docker.com/_/drupal)
 - elasticsearch_deployment_nodeport.yaml : [**ElasticSearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html)
+- hatoya_deployment_nodeport.yaml : [**HATOYA**](https://hub.docker.com/r/dotnsf/hatoya)
 - mongodb_deployment_nodeport.yaml : [**MongDB**](https://hub.docker.com/_/mongo)
 - mongoexpress_deployment_nodeport.yaml : [**Mong-Express**](https://hub.docker.com/_/mongo-express)
 - mysql_deployment_nodeport.yaml : [**MySQL**](https://hub.docker.com/_/mysql)

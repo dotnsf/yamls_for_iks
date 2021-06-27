@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hatoya
+spec:
+  selector:
+    app: hatoya
+  ports:
+  - port: 4126
+    protocol: TCP
+    targetPort: 4126
+    nodePort: 30126
+  type: NodePort
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hatoya
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hatoya
+  template:
+    metadata:
+      labels:
+        app: hatoya
+    spec:
+      containers:
+      - name: hatoya
+        image: dotnsf/hatoya
+        ports:
+        - containerPort: 4126
