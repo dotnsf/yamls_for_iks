@@ -1,0 +1,46 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: mongo-express
+spec:
+  selector:
+    app: mongo-express
+  ports:
+  - port: 8081
+    protocol: TCP
+    targetPort: 8081
+    nodePort: 30084
+  type: NodePort
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mongo-express
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mongo-express
+  template:
+    metadata:
+      labels:
+        app: mongo-express
+    spec:
+      containers:
+      - name: mongo-express
+        image: mongo-express
+        env:
+#        - name: ME_CONFIG_MONGODB_URL
+#          value: "mongodb://root:Passw0rd@xxx.xxx.xxx.xxx:30017"
+        - name: ME_CONFIG_MONGODB_SERVER
+          value: "xxx.xxx.xxx.xxx"
+        - name: ME_CONFIG_MONGODB_PORT
+          value: "30017"
+        - name: ME_CONFIG_MONGODB_ENABLE_ADMIN
+          value: "false"
+        - name: ME_CONFIG_MONGODB_AUTH_USERNAME
+          value: "root"
+        - name: ME_CONFIG_MONGODB_AUTH_PASSWORD
+          value: "Passw0rd"
+        ports:
+        - containerPort: 8081
