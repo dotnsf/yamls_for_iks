@@ -44,6 +44,7 @@ Sample .yaml files which can be run on IKS(IBM Kubernetes Services) as free tier
 - mongodb_deployment_nodeport.yaml : [**MongDB**](https://hub.docker.com/_/mongo)
 - mongoexpress_deployment_nodeport.yaml : [**Mong-Express**](https://hub.docker.com/_/mongo-express)
 - mysql_deployment_nodeport.yaml : [**MySQL**](https://hub.docker.com/_/mysql)
+- nodered_deployment_nodeport.yaml : [**Node-RED**](https://hub.docker.com/r/nodered/node-red)
 - pgadmin4_deployment_nodeport.yaml : [**Pgadmin4**,](https://hub.docker.com/r/dpage/pgadmin4) Web client for PostgreSQL
 - phpmydmin_deployment_nodeport.yaml : [**phpMyAdmin**,](https://hub.docker.com/_/phpmyadmin) Web client for MySQL
 - postgresql_deployment_nodeport.yaml : [**PostgreSQL**](https://hub.docker.com/_/postgres)
