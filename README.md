@@ -56,6 +56,7 @@ Sample .yaml files which can be run on IKS(IBM Kubernetes Services) as free tier
 - postgresql_deployment_nodeport.yaml : [**PostgreSQL**](https://hub.docker.com/_/postgres)
 - redis_deployment_nodeport.yaml : [**Redis**](https://hub.docker.com/_/redis)
 - rediscommander_deployment_nodeport.yaml : [**Redis Commander**](https://hub.docker.com/r/rediscommander/redis-commander)
+- rstudio_deployment_nodeport.yaml : [**R Studio**](https://hub.docker.com/r/rocker/rstudio)
 - scratch3_deployment_nodeport.yaml : [**MIT Scratch3**](https://hub.docker.com/r/kadok0520/mit-scratch3)
 - swaggereditor_deployment_nodeport.yaml : [**Swagger Editor**](https://hub.docker.com/r/swaggerapi/swagger-editor)
 - tomcat_deployment_nodeport.yaml : [**Tomcat**](https://hub.docker.com/_/tomcat)
