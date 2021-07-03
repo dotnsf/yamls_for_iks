@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: swagger-editor
+spec:
+  selector:
+    app: swagger-editor
+  ports:
+  - port: 8080
+    protocol: TCP
+    targetPort: 8080
+    nodePort: 30090
+  type: NodePort
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: swagger-editor
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: swagger-editor
+  template:
+    metadata:
+      labels:
+        app: swagger-editor
+    spec:
+      containers:
+      - name: swagger-editor
+        image: swaggerapi/swagger-editor
+        ports:
+        - containerPort: 8080
