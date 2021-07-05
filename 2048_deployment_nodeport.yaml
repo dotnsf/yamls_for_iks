@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: game2048
+spec:
+  selector:
+    app: game2048
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+    nodePort: 30080
+  type: NodePort
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: game2048
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: game2048
+  template:
+    metadata:
+      labels:
+        app: game2048
+    spec:
+      containers:
+      - name: game2048
+        image: ponsfrilus/2048nginx
+        ports:
+        - containerPort: 80

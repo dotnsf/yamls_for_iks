@@ -37,6 +37,7 @@ Sample .yaml files which can be run on IKS(IBM Kubernetes Services) as free tier
 
 ## Sample file list
 
+- 2048_deployment_nodeport.yaml : [**2048 Game**](https://hub.docker.com/r/ponsfrilus/2048nginx)
 - apache_deployment_nodeport.yaml : [**Apache HTTP server**](https://hub.docker.com/_/httpd)
 - couchbase_deployment_nodeport.yaml : [**CoubhBase**](https://hub.docker.com/_/couchbase)
 - couchdb_deployment_nodeport.yaml : [**CouchDB**](https://hub.docker.com/_/couchdb)
