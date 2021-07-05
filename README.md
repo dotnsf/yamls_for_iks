@@ -41,10 +41,12 @@ Sample .yaml files which can be run on IKS(IBM Kubernetes Services) as free tier
 - couchbase_deployment_nodeport.yaml : [**CoubhBase**](https://hub.docker.com/_/couchbase)
 - couchdb_deployment_nodeport.yaml : [**CouchDB**](https://hub.docker.com/_/couchdb)
 <!-- - db2_deployment_nodeport.yaml : [**DB2**](https://hub.docker.com/r/ibmcom/db2) -->
+<!-- - derby_deployment_nodeport.yaml : [**Derby**](https://hub.docker.com/r/datagrip/derby-server) -->
 - dosbox_deployment_nodeport.yaml : [**DOSBox**](https://hub.docker.com/r/jgoerzen/dosbox)
 - drupal_deployment_nodeport.yaml : [**Drupal**](https://hub.docker.com/_/drupal)
 - elasticsearch_deployment_nodeport.yaml : [**ElasticSearch**](https://hub.docker.com/_/elasticsearch)
 - hatoya_deployment_nodeport.yaml : [**HATOYA**](https://hub.docker.com/r/dotnsf/hatoya)
+- hostname_deployment_nodeport.yaml : [**hostname**](https://hub.docker.com/r/dotnsf/hostname)
 - kibana_deployment_nodeport.yaml : [**Kibana**](https://hub.docker.com/_/kibana)
 - mongodb_deployment_nodeport.yaml : [**MongDB**](https://hub.docker.com/_/mongo)
 - mongoexpress_deployment_nodeport.yaml : [**Mong-Express**](https://hub.docker.com/_/mongo-express)
