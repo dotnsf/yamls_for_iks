@@ -48,6 +48,7 @@ Sample .yaml files which can be run on IKS(IBM Kubernetes Services) as free tier
 - elasticsearch_deployment_nodeport.yaml : [**ElasticSearch**](https://hub.docker.com/_/elasticsearch)
 - hatoya_deployment_nodeport.yaml : [**HATOYA**](https://hub.docker.com/r/dotnsf/hatoya)
 - hostname_deployment_nodeport.yaml : [**hostname**](https://hub.docker.com/r/dotnsf/hostname)
+- jenkins_deployment_nodeport.yaml : [**jenkins**](https://hub.docker.com/r/jenkins/jenkins)
 - kibana_deployment_nodeport.yaml : [**Kibana**](https://hub.docker.com/_/kibana)
 - mongodb_deployment_nodeport.yaml : [**MongDB**](https://hub.docker.com/_/mongo)
 - mongoexpress_deployment_nodeport.yaml : [**Mong-Express**](https://hub.docker.com/_/mongo-express)
