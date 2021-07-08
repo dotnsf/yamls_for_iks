@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: fx
+spec:
+  selector:
+    app: fx
+  ports:
+  - port: 8080
+    protocol: TCP
+    targetPort: 8080
+    nodePort: 30080
+  type: NodePort
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fx
+  template:
+    metadata:
+      labels:
+        app: fx
+    spec:
+      containers:
+      - name: fx
+        image: dotnsf/fx
+        ports:
+        - containerPort: 8080

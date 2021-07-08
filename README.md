@@ -46,6 +46,7 @@ Sample .yaml files which can be run on IKS(IBM Kubernetes Services) as free tier
 - dosbox_deployment_nodeport.yaml : [**DOSBox**](https://hub.docker.com/r/jgoerzen/dosbox)
 - drupal_deployment_nodeport.yaml : [**Drupal**](https://hub.docker.com/_/drupal)
 - elasticsearch_deployment_nodeport.yaml : [**ElasticSearch**](https://hub.docker.com/_/elasticsearch)
+- fx_deployment_nodeport.yaml : [**fx**](https://hub.docker.com/r/dotnsf/fx)
 - hatoya_deployment_nodeport.yaml : [**HATOYA**](https://hub.docker.com/r/dotnsf/hatoya)
 - hostname_deployment_nodeport.yaml : [**hostname**](https://hub.docker.com/r/dotnsf/hostname)
 - jenkins_deployment_nodeport.yaml : [**jenkins**](https://hub.docker.com/r/jenkins/jenkins)
