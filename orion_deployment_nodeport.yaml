@@ -9,7 +9,7 @@ spec:
   - port: 8081
     protocol: TCP
     targetPort: 8081
-    nodePort: 30081
+    nodePort: 30080
   type: NodePort
 ---
 apiVersion: apps/v1
