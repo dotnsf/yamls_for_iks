@@ -77,59 +77,59 @@ Sample .yaml files which can be run on IKS(IBM Kubernetes Services) as free tier
 
 - Web servers
 
-  1. Apache HTTP
+  1. Hostname
 
-  2. Nginx
+  2. Apache HTTP
 
-  3. Tomcat
+  3. Nginx
 
-  4. WAS Liberty
+  4. Tomcat
+
+  5. WAS Liberty
 
 - Databases
 
-  5. MySQL
+  6. MySQL
 
-  6. phpMyAdmin
+  7. phpMyAdmin
 
-  7. PostgreSQL
+  8. PostgreSQL
 
-  8. pgAdmin4
+  9. pgAdmin4
 
-  9. MongoDB
+  10. MongoDB
 
-  10. MongoExpress
+  11. MongoExpress
 
-  11. Redis
+  12. Redis
 
-  12. RedisCommander
+  13. RedisCommander
 
-  13. ElasticSearch
+  14. ElasticSearch
 
-  14. Kibana
+  15. Kibana
 
-  15. CouchDB
+  16. CouchDB
 
-  16. CouchBase
+  17. CouchBase
 
-  17. HATOYA
+  18. HATOYA
 
 - Programming
 
-  18. Node-RED
+  19. Node-RED
 
-  19. Scratch3
+  20. Scratch3
 
-  20. Orion
+  21. Orion
 
-  21. Swagger Editor
+  22. Swagger Editor
 
-  22. R Studio
+  23. R Studio
 
-  23. Jenkins
+  24. Jenkins
 
 - Applications
-
-  24. Hostname
 
   25. FX
 
