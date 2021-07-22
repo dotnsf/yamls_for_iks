@@ -64,7 +64,7 @@ Sample .yaml files which can be run on IKS(IBM Kubernetes Services) as free tier
 - [x] scratch3.yaml : [**MIT Scratch3**](https://hub.docker.com/r/kadok0520/mit-scratch3)
 - [x] swaggereditor.yaml : [**Swagger Editor**](https://hub.docker.com/r/swaggerapi/swagger-editor)
 - [x] tomcat.yaml : [**Tomcat**](https://hub.docker.com/_/tomcat)
-- [ ] vncserver.yaml : [**Lubuntu + VNCServer**](https://hub.docker.com/r/vncserver/lubuntu)
+- [x] vncserver.yaml : [**Lubuntu + VNCServer**](https://hub.docker.com/r/vncserver/lubuntu)
 - [x] wasliberty.yaml : [**WebSphere Liberty**](https://hub.docker.com/_/websphere-liberty)
 - [x] wordpress.yaml : [**WordPress**](https://hub.docker.com/_/wordpress)
 
