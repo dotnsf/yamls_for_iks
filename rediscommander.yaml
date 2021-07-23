@@ -31,7 +31,7 @@ spec:
         image: rediscommander/redis-commander
         env:
         - name: REDIS_HOST
-          value: "169.51.204.190"
+          value: "xxx.xxx.xxx.xxx"
         - name: REDIS_PORT
           value: "30379"
         ports:
