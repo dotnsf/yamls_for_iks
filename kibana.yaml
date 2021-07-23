@@ -31,6 +31,6 @@ spec:
         image: docker.elastic.co/kibana/kibana:7.13.2
         env:
         - name: ELASTICSEARCH_HOSTS
-          value: "http://169.51.204.190:30200"
+          value: "http://xxx.xxx.xxx.xxx:30200"
         ports:
         - containerPort: 5601
