@@ -75,73 +75,135 @@ Sample .yaml files which can be run on IKS(IBM Kubernetes Services) as free tier
 
   0. How to install/setup IBM Cloud k8s services
 
+    - http://dotnsf.blog.jp/archives/1079287640.html
+
 - Web servers
 
   1. Hostname
 
+    - http://dotnsf.blog.jp/archives/1079288471.html
+
   2. Apache HTTP
+
+    - http://dotnsf.blog.jp/archives/1079301713.html
 
   3. Nginx
 
+    - http://dotnsf.blog.jp/archives/1079305477.html
+
   4. Tomcat
 
+    - http://dotnsf.blog.jp/archives/1079311794.html
+
   5. WAS Liberty
+
+    - http://dotnsf.blog.jp/archives/1079311810.html
 
 - Databases
 
   6. MySQL
 
+    - http://dotnsf.blog.jp/archives/1079312476.html
+
   7. phpMyAdmin
+
+    - http://dotnsf.blog.jp/archives/1079312511.html
 
   8. PostgreSQL
 
+    - http://dotnsf.blog.jp/archives/1079315978.html
+
   9. pgAdmin4
+
+    - http://dotnsf.blog.jp/archives/1079316017.html
 
   10. MongoDB
 
+    - http://dotnsf.blog.jp/archives/1079316940.html
+
   11. MongoExpress
+
+    - http://dotnsf.blog.jp/archives/1079316982.html
 
   12. Redis
 
+    - http://dotnsf.blog.jp/archives/1079317638.html
+
   13. RedisCommander
+
+    - http://dotnsf.blog.jp/archives/1079317678.html
 
   14. ElasticSearch
 
+    - http://dotnsf.blog.jp/archives/1079317698.html
+
   15. Kibana
+
+    - http://dotnsf.blog.jp/archives/1079317718.html
 
   16. CouchDB
 
+    - http://dotnsf.blog.jp/archives/1079325883.html
+
   17. CouchBase
 
+    - http://dotnsf.blog.jp/archives/1079325930.html
+
   18. HATOYA
+
+    - http://dotnsf.blog.jp/archives/1079333267.html
 
 - Programming
 
   19. Node-RED
 
+    - http://dotnsf.blog.jp/archives/1079333305.html
+
   20. Scratch3
+
+    - http://dotnsf.blog.jp/archives/1079333327.html
 
   21. Orion
 
+    - http://dotnsf.blog.jp/archives/1079333378.html
+
   22. Swagger Editor
+
+    - http://dotnsf.blog.jp/archives/1079333767.html
 
   23. R Studio
 
+    - http://dotnsf.blog.jp/archives/1079333808.html
+
   24. Jenkins
+
+    - http://dotnsf.blog.jp/archives/1079333838.html
 
 - Applications
 
   25. FX
 
+    - http://dotnsf.blog.jp/archives/1079333894.html
+
   26. 2048
+
+    - http://dotnsf.blog.jp/archives/1079333941.html
 
   27. DOS box
 
+    - http://dotnsf.blog.jp/archives/1079333968.html
+
   28. VNC Server
+
+    - http://dotnsf.blog.jp/archives/1079334009.html
 
   29. Drupal
 
+    - http://dotnsf.blog.jp/archives/1079334044.html
+
   30. WordPress
+
+    - http://dotnsf.blog.jp/archives/1079334115.html
 
 
 
