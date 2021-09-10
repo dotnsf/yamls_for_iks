@@ -1,0 +1,43 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: vnc_ubuntu
+spec:
+  selector:
+    app: vnc_ubuntu
+  ports:
+  - port: 80
+    name: port0
+    protocol: TCP
+    targetPort: 80
+    nodePort: 30080
+  - port: 5900
+    name: port1
+    protocol: TCP
+    targetPort: 5900
+    nodePort: 30900
+  type: NodePort
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vnc_ubuntu
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: vnc_ubuntu
+  template:
+    metadata:
+      labels:
+        app: vnc_ubuntu
+    spec:
+      containers:
+      - name: vnc_ubuntu
+        image: dorowu/ubuntu-desktop-lxde-vnc
+        env:
+        - name: VNC_PASSWORD
+          value: "P@ssw0rd"
+        ports:
+        - containerPort: 80
+        - containerPort: 5900
