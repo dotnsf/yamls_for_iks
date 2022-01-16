@@ -1,0 +1,40 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: db2cli
+spec:
+  selector:
+    app: db2cli
+  ports:
+  - port: 50000
+    protocol: TCP
+    targetPort: 50000
+    nodePort: 30501
+  type: NodePort
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: db2cli
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: db2cli
+  template:
+    metadata:
+      labels:
+        app: db2cli
+    spec:
+      containers:
+      - name: db2img
+        image: ibmcom/db2
+        securityContext:
+          privileged: true
+        env:
+        - name: LICENSE
+          value: "accept"
+        - name: DB2INST1_PASSWORD
+          value: "db2inst1"
+        ports:
+        - containerPort: 50000
