@@ -27,7 +27,7 @@ spec:
         app: db2cli
     spec:
       containers:
-      - name: db2img
+      - name: db2cli
         image: ibmcom/db2
         securityContext:
           privileged: true
